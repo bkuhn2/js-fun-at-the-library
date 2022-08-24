@@ -4,6 +4,7 @@
 // iteration 1 until you are confident that you've completed all of iteration 0.
 
 
+
 //------------------------- Variables -------------------------//
 
 
@@ -17,7 +18,7 @@
 
 // Reassign (not initialize) your "pages" variable from above. An editor came around and
 // condensed the book, use a built in math operator to make the page count a quarter
-// of what it currently is 
+// of what it currently is
 
 
 
@@ -47,7 +48,7 @@
 
 
 // Express the following in code: If the variable "pages" is less than 1000 log
-// the statement 'I could read that in a day!', otherwise, log the statement 
+// the statement 'I could read that in a day!', otherwise, log the statement
 // 'Ok, maybe I could read that in a day and a half'
 
 
