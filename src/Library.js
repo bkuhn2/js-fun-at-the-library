@@ -12,7 +12,7 @@ function createLibrary(name) {
 
 function addBook(library, book) {
   var genres = Object.keys(library.shelves);
-//use a loop here instead of index numbers???
+
   if (book.genre === genres[0]) {
       library.shelves.fantasy.push(book)
     } else if (book.genre === genres[1]) {
