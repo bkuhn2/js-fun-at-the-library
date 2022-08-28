@@ -12,17 +12,15 @@ function buildMainCharacter(name, age, pronouns) {
   return mainCharacter
 }
 
-// each time function is called it retains the updatedd array elements!!
-// learned that !operator before method NEGATES it - tried for statement and it didn't work for some reason
+
 function saveReview(review1, arrayForReviews) {
   if (!arrayForReviews.includes(review1)) {
       arrayForReviews.push(review1);
-      console.log(arrayForReviews);
       return arrayForReviews
 }
 }
 
-//is this too easy?
+
 function calculatePageCount(title) {
   var pageCount = title.length*20
   return pageCount
