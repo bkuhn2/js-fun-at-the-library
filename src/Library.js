@@ -23,16 +23,6 @@ function addBook(library, book) {
 }
 
 function checkoutBook(library, book, genreShelf) {
-  var totalBookList = [];
-  for (var i = 0; i < library.shelves.fantasy.length; i++){
-    totalBookList.push(library.shelves.fantasy[i].title)
-  }
-  for (var i = 0; i < library.shelves.fiction.length; i++){
-    totalBookList.push(library.shelves.fiction[i].title)
-  }
-  for (var i = 0; i < library.shelves.nonFiction.length; i++){
-    totalBookList.push(library.shelves.nonFiction[i].title)
-  }
 
   if (genreShelf === "fantasy") {
     for (var i = 0; i < library.shelves.fantasy.length; i++){
@@ -56,11 +46,7 @@ function checkoutBook(library, book, genreShelf) {
       }
     }
   }
-//try to understand why when this was linked here it didn't work -- ask
-  if (!totalBookList.includes(book)){
     return `Sorry, there are currently no copies of ${book} available at the ${library.name}`
-  }
-
 }
 
 
